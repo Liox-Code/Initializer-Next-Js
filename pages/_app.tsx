@@ -3,7 +3,7 @@ import { AppProps } from 'next/app'
 import { createGlobalStyle } from 'styled-components'
 
 // Components
-import Layout from '../components/Layout'
+import Layout from '@components/Layout'
 
 const GlobalStyle = createGlobalStyle`
     *{
